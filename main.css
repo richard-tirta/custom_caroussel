@@ -7,12 +7,17 @@ body{
 }
 
 h1{
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
 h4{
-	font-size: 14px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 12px;
 	font-weight: 400;
 }
 
@@ -22,7 +27,7 @@ h4{
 	overflow:hidden;
 	position:relative;
 	height:683px; width:100%;
-	min-height:340px; min-width:650px;
+	min-height: 468px;
 }
 	  
 #slide-image{position:relative;}
@@ -42,7 +47,6 @@ h4{
 
 #slide-image>div img, video{
 	width:100%;
-	min-width:650px;
 	z-index:1;
 }
 
@@ -59,7 +63,7 @@ h4{
 	height:45px; width:45px;
 	overflow:hidden;
 	position:absolute;
-	top:45%; 
+	top:30%; 
 	z-index:3;
 }
 
@@ -77,21 +81,22 @@ h4{
 /* End of Custom Arrow Buttons*/
 
 /* Custom Text on Slides*/
+
 .caption-wrapper{
 	background: rgba(0,0,0,0.5);
 	color: #fff;
 	padding: 10px;
 	position:absolute;
 	z-index: 2;
+	top: auto; 
+	bottom: auto;
 }
 	  
-#caption-0{top:30%;   right:9%; width:390px;}
+/* #caption-0{top:30%;   right:9%; width:390px;}
 #caption-1{top:12%;   left:39%; width:470px;}
 #caption-2{bottom:15%;right:7%; width:430px;}
 #caption-3{bottom:13%; left:10%; width:510px;}
-#caption-4{bottom:5%; left:5.8%; width:700px;}
-
-#caption-2 h4 {width:400px;}
+#caption-4{bottom:5%; left:5.8%; width:700px;} */
 
 /* End of Custom Text on Slides*/
 
